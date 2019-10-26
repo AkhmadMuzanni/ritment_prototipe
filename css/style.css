@@ -52,12 +52,31 @@
   margin-bottom: 10px;
 }
 
+.s_product_text p {
+  margin-bottom: 30px;
+}
+
 .product_image_area {
   margin-bottom: 100px;
 }
 
-#status_projek {
+#status_projek_tersedia {
   color: #008321;
+  font-weight: bold;
+}
+
+#status_projek_menunggu {
+  color: #dba800;
+  font-weight: bold;
+}
+
+#status_projek_diterima {
+  color: #4643ff;
+  font-weight: bold;
+}
+
+#status_projek_diverifikasi {
+  color: #4643ff;
   font-weight: bold;
 }
 
