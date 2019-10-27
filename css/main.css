@@ -76,6 +76,12 @@
   font-size: 36px;
 }
 
+.section-title h3 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -1672,7 +1678,7 @@ h6 {
 /* banner area css
 ============================================================================================ */
 .banner-area {
-  background: url(../img/banner/banner-bg.jpg) center no-repeat;
+  background: url(../img/banner/banner-background.svg) center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1734,21 +1740,25 @@ h6 {
 }
 
 .banner-area .banner-content h1 {
-  font-size: 60px;
-  line-height: 66px;
-  font-weight: 700;
-  margin-bottom: 30px;
+  font-size: 45px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
-@media (max-width: 767px) {
-  .banner-area .banner-content h1 {
-    font-size: 35px;
-    line-height: 46px;
-  }
+.banner-area .banner-content h4 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 .banner-area .banner-content p {
-  margin: 0;
+  margin-left: 0px;
+  font-size: 14px;
+  color: cornsilk;
 }
 
 @media (max-width: 991px) {
@@ -1829,9 +1839,8 @@ h6 {
   }
 }
 
-.breadcrumb-banner p {
-  margin-bottom: 0;
-  color: #fff;
+margin-bottom: 0;
+color: #fff;
 }
 
 .breadcrumb-banner nav a {
@@ -2300,8 +2309,8 @@ h6 {
 }
 
 .exclusive-deal-area .exclusive-left {
-  position: realtive;
-  background: url(../img/exclusive.jpg) center no-repeat;
+  position: relative;
+  background: url(../img/banner/banner-image.png) center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 275px 0;

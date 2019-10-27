@@ -115,3 +115,79 @@
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: var(--secondary-color);
 }
+
+.transparent-btn {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid;
+  border-color: #fff;
+  color: #fff;
+  padding: 0 30px;
+  line-height: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.transparent-btn:before {
+  position: absolute;
+  left: -145px;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #fff;
+  opacity: 0;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  -o-transform: skew(40deg);
+  transform: skew(40deg);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.transparent-btn:hover {
+  color: #fff;
+}
+
+.transparent-btn:hover:before {
+  left: 180px;
+  opacity: .3;
+}
+
+.list-place h6 {
+  margin-top: 8%;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: lightgray;
+}
+
+.list-place h4 {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.location {
+  margin-top: 0%;
+  margin-left: -1%;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #F87587;
+}
+
+.capacity {
+  margin-top: -12%;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #6CDFAD;
+}
