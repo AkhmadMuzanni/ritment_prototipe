@@ -8,6 +8,64 @@
 /* Wide Mobile Layout: 480px */
 /* Section Gaps css
 ============================================================================================ */
+.img-about1 {
+  margin-left: -15px;
+  width: auto !important;
+}
+
+.img-about2 {
+  margin-right: -15px;
+  width: auto !important;
+}
+
+.content-about {
+  margin: 120px;
+}
+
+@media (max-width: 480px) {
+  .img-about1 {
+    margin-left: -15px;
+    width: 100% !important;
+  }
+
+  .img-about2 {
+    margin-right: -15px;
+    height: auto !important;
+  }
+
+  .content-about {
+    margin: 20px;
+  }
+
+  .content-detail {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 570px) {
+  .img-about1 {
+    margin-left: -15px;
+    width: 100% !important;
+  }
+
+  .img-about2 {
+    margin-right: -15px;
+    height: auto !important;
+  }
+
+  .content-about {
+    margin: 50px;
+  }
+
+  .content-detail {
+    font-size: 12px;
+  }
+}
+
+.content-detail {
+  font-size: 18px;
+}
+
 .no-padding {
   padding: 0;
 }
