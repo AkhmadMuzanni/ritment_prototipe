@@ -163,3 +163,31 @@
     left: 180px;
     opacity: .3;
 }
+
+.list-place h6 {
+    margin-top: 8%;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: lightgray;
+}
+
+.list-place h4 {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.location {
+    margin-top: 0%;
+    margin-left: -1%;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #F87587;
+}
+
+.capacity {
+    margin-top: -12%;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #6CDFAD;
+}
