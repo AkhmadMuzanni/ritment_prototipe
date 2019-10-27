@@ -195,3 +195,7 @@
 a {
   color: azure;
 }
+
+html {
+  scroll-behavior: smooth;
+}
