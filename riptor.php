@@ -35,50 +35,9 @@
 
 <body>
 
-    <!-- Start Header Area -->
-    <header class="header_area sticky-header">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light main_box round">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="beranda.html"><img src="img/logo_ritment.png" alt="" style="height: 50px;"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="rivide.html">BERANDA</a></li>
-                            <li class="nav-item"><a class="nav-link" href="beranda.html">RISEEK</a></li>
-                            <li class="nav-item"><a class="nav-link" href="riptor.html">RIPTOR</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">BANTUAN</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">TENTANG KAMI</a></li>
-                            <li class="nav-item"><a class="nav-link" href="detail_project2.html">MASUK</a></li>
-
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <!-- <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li> -->
-                            <li class="nav-item">
-                                <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="search_input" id="search_input_box">
-            <div class="container">
-                <form class="d-flex justify-content-between">
-                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-                    <button type="submit" class="btn"></button>
-                    <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-                </form>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Area -->
+    <?php
+    include('navbar_riptor.php');
+    ?>
 
     <!-- start banner Area -->
     <section class="banner-area">
@@ -90,11 +49,11 @@
                     <div class="row align-items-center d-flex" style="margin-top: 5%; ">
                         <div class="col-lg-5 col-md-4">
                             <div class="banner-content">
-                                <h4>Mudahnya cari tempat magang</h4>
+                                <h4>Bantu instansi memecahkan masalahnya</h4>
                                 <h1>Hanya ada disini!</h1>
-                                <p>Bersama RITMENT, temukan tempat magang idaman <br> dengan cepat dan nyaman sekaligus berkhidmat untuk bangsa</p>
+                                <p>Bersama RITMENT, berikan kontribusi Anda <br> untuk membantu memecahkan masalah instansi</p>
                                 <!-- <p>Bersama RITMENT, mudahkan kebutuhan anak bangsa <br> untuk terus menemukan perannya di era revolusi industri 4.0</p> -->
-                                <a href="#find-job" class="transparent-btn">TEMUKAN TEMPAT MAGANGMU</a>
+                                <a href="#find-job" class="transparent-btn">MULAI KONTRIBUSI ANDA</a>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -135,7 +94,7 @@
                         </div>
                         <!-- <h6>RISEEK</h6> -->
                         <!-- <p>Looking for The Best Job Place</p> -->
-                        <a href="category.html">
+                        <a href="category.php">
                             <h6>RISEEK - Project Seeker</h6>
                         </a>
 

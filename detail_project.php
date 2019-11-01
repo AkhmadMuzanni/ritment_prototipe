@@ -34,60 +34,19 @@
 
 <body>
 
-    <!-- Start Header Area -->
-    <header class="header_area sticky-header">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light main_box round">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="beranda.html"><img src="img/logo_ritment.png" alt="" style="height: 50px;"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="beranda.html">BERANDA</a></li>
-                            <li class="nav-item"><a class="nav-link" href="rivide.html">RIVIDE</a></li>
-                            <li class="nav-item"><a class="nav-link" href="riptor.html">RIPTOR</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">BANTUAN</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">TENTANG KAMI</a></li>
-                            <li class="nav-item"><a class="nav-link" href="detail_project2.html">MASUK</a></li>
-
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <!-- <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li> -->
-                            <li class="nav-item">
-                                <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="search_input" id="search_input_box">
-            <div class="container">
-                <form class="d-flex justify-content-between">
-                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-                    <button type="submit" class="btn"></button>
-                    <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-                </form>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Area -->
+    <?php
+    include('navbar_riseek.php');
+    ?>
 
     <!-- Start Banner Area -->
     <section class="banner-area organic-breadcrumb">
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                 <div class="col-first">
-                    <h1>Daftar Akun</h1>
+                    <h1>Detail Projek</h1>
                     <nav class="d-flex align-items-center">
-                        <!-- <a href="#">Peran<span class="lnr lnr-arrow-right"></span></a> -->
-                        <!-- <a href="single-product.html">Project Saya</a> -->
+                        <a href="#">Peran<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="single-product.html">Riseek</a>
                     </nav>
                 </div>
             </div>
@@ -102,50 +61,41 @@
                 <div class="col-lg-5 text-center">
                     <!-- <div class="s_Product_carousel"> -->
                     <!-- <div class="single-prd-item"> -->
-                    <img class="img-fluid" id="img_daftar" src="img/logo_ritment2.png" alt="">
+                    <img class="img-fluid" id="img_detail" src="img/logo/logo_kab_malang.jpg" alt="">
                     <!-- </div> -->
                     <!-- </div> -->
                 </div>
                 <div class="col-lg-6 offset-lg-1">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Nama</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="M. Rosyid Basithu">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Alamat Email Anda" value="rosyidbasithu@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Alamat Rumah</label>
-                            <textarea class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Rumah">Kec. Bululawang, Kab. Malang</textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Alamat Kampus</label>
-                            <textarea type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Kampus">Universitas Brawijaya</textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Transkrip</label>
-                            <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Alamat Email Anda" value="rosyidbasithu@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Curriculum Vitae</label>
-                            <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Alamat Email Anda" value="rosyidbasithu@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="rosyid15">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Konfirmasi Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password" value="rosyid15">
-                        </div>
-                        <div class="pull-right">
-                            <button type="button" class="btn primary-btn"><a href="detail_project2.html">Daftar Akun</a></button>
-                        </div>
+                    <div class="s_product_text">
+                        <h4>Dinas Tanaman Pangan, Hortikultura dan Perkebunan Kabupaten Malang</h4>
+                        <h3>Projek Traktor IoT</h3>
+                        <h2>Rp. 250.000/orang</h2>
+                        <h5><i class="lnr lnr lnr-location"></i> Kepanjen, Kab. Malang</h5>
+                        <br />
+                        <ul class="list">
+                            <li><a class="active" href="#"><span>Kategori</span> : IoT, AI</a></li>
+                            <li><a href="#"><span>Operator</span> : Akhmad Muzanni Safi'i</a></li>
+                            <li><a href="detail_project2.php"><span>Status</span> : <b
+                                        id="status_projek_tersedia">Tersedia</b></a></li>
+                            <li><a href="#"><span>Kapasitas</span> : 3/5 Terisi</a></li>
+                            <li><a href="#"><span>Batas Pengajuan</span> : 1 Januari 2019</a></li>
+                            <li><a href="#"><span>Durasi</span> : 3 Bulan</a></li>
+                        </ul>
+                        <br />
 
-                    </form>
-
+                        <h5>Gambaran Rivide (Project Provider)</h5>
+                        <p>Diperlukan suatu modifikasi traktor dengan memanfaatkan teknologi IoT untuk melakukan pengukuran terhadap kinerja traktor dalam satuan waktu tertentu. Metode dan alat yang digunakan bebas. </p>
+                        <h5>Rekomendasi Riptor (Project Descriptor)</h5>
+                        <p>Rekomendasi alat: speedmeter kedap air, arduino modul wifi. </p>
+                        <!-- <div class="product_count">
+                            <h4>3/5 Kapasitas Terpenuhi</h4>
+                        </div> -->
+                        <div class="card_area d-flex align-items-center">
+                            <a class="primary-btn" href="#" data-toggle="modal" data-target="#myModal">LAMAR</a>
+                            <a class="icon_btn" href="#" title="BAGIKAN"><i class="lnr lnr lnr-location"></i></a>
+                            <!-- <a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -159,18 +109,19 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
+                    <h4 class="modal-title">Konfirmasi</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    Modal body..
+                    Apakah Anda Yakin ingin mengajukan magang untuk projek ini?
                 </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <a href="form.php" class="btn btn-success">Yakin</a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
                 </div>
 
             </div>
